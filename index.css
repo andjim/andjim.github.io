@@ -1,0 +1,45 @@
+/*.rgba-primary-0 { color: rgba( 48,122,165,1) }	/* Main Primary color 
+.rgba-primary-1 { color: rgba( 95,175,222,1) }
+.rgba-primary-2 { color: rgba( 69,149,196,1) }
+.rgba-primary-3 { color: rgba( 33,102,144,1) }
+.rgba-primary-4 { color: rgba( 26, 76,106,1) }*/
+
+
+html{
+	font-family: 'Lato', sans-serif;
+}
+
+#main{
+	width: 100%;
+}
+
+.header{
+	background-color: rgba( 95,175,222,0.8);
+	 box-sizing: content-box;
+}
+.header .container{
+	padding-bottom: 1em;
+	padding-top:1em;
+}
+.header .row .textbox{
+	padding: 2.5em 0px;
+	font-size: 1.3em;
+
+}
+
+
+.f p{
+
+}
+.s h2{
+	margin:0px;
+	margin-left: 0.2em;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 600;
+}
+
+
+.header figure img{
+	width: 100%;
+}
+
