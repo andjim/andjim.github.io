@@ -14,7 +14,7 @@ html{
 }
 
 .header{
-	background-color: rgba( 95,175,222,0.8);
+	background-image: linear-gradient(to bottom right,#03a9f4,#9c27b0 );/*;deep purple*/
 	 box-sizing: content-box;
 }
 .header .container{
@@ -43,3 +43,11 @@ html{
 	width: 100%;
 }
 
+
+.section .img-box{
+	max-width: 25%;
+}
+
+.section meter{
+	padding: 0px !important;
+}

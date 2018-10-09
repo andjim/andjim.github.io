@@ -31,22 +31,31 @@ let section = yo`
 				<div class="col s12"><p>Skills and knowledge areas</p></div>
 				<div class="col s6">
 					<div class="col s12">
-						<figure>
-							<img src=""/>FOTO
-						</figure>
-							<p>I'm</p>
+						<div class="col s4">
+							<img class="responsive-img circle" src="./assets/icon/wd.png"/>
 						</div>
-					<div class="col s12">
-						<figure>
-							<img src=""/>FOTO2
-						</figure>
-						<p>Anderson Jimenez Santana,</p>
+						<div  class="col s6">
+							<span>Web Design</span>
+							<meter class="col s12" value="0.2">20%</meter>
+						</div>
 					</div>
 					<div class="col s12">
-						<figure>
-							<img src=""/>FOTO3
-						</figure>
-						<p>Student of System ingeniering and web devoloper.</p>
+						<div class="col s4">
+							<img class="responsive-img circle" src="./assets/icon/js.png"/>
+						</div>
+						<div  class="col s6">
+							<span>Javascript</span>
+							<meter  class="col s12" value="0.4">40%</meter>
+						</div>
+					</div>
+					<div class="col s12">
+						<div class="col s4">
+							<img class="responsive-img circle" src="./assets/icon/py.png"/>
+						</div>
+						<div  class="col s6">
+							<span>Python</span>
+							<meter class="col s12" value="0.3">30%</meter>
+						</div>
 					</div>
 				</div>
 				<div class="col s6">
