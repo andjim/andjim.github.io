@@ -1411,7 +1411,7 @@ let header = yo`
 <div class="header ">
 		<div class="cont">
 			<div class="row">
-				<div class=" side1 col s1">
+				<div class="hide-on-med-and-down side1 col s1">
                     <ul>
 					    <li><p><a href="#skills">Skills</a></p></li>
 					    <li><p><a href="#contact" >Contact</a></p></li>
