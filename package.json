@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/andjim/andjim.github.io#readme",
   "dependencies": {
-    "yo-yo": "^1.4.1"
+    "yo-yo": "^1.4.1",
   }
 }

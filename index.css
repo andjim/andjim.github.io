@@ -73,9 +73,7 @@ html,body{
 	font-weight: 600;
 }
 
-.t{
 
-}
 
 
 
@@ -139,3 +137,24 @@ meter::-moz-meter-bar {
         border: 2px solid black;
         margin: 0.5em 4em;
     }
+
+.footer #lang{
+    display: block !important;
+    background-color: #fff;
+    -moz-appearance: none;
+    border-top: 0;
+    border-left: 0; 
+    border-right: 0;
+    border-bottom:2px  solid  #999;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.footer #lang:hover{
+    border-bottom-color: #000;
+    background: #f3f3f3
+}
+
+.footer #lang option{
+    background: #fff;
+}
