@@ -158,3 +158,28 @@ meter::-moz-meter-bar {
 .footer #lang option{
     background: #fff;
 }
+
+
+/*Small dev*/
+
+@media only screen and (max-width: 600px){
+    .header img {
+        max-width: 40%;
+    }
+
+    .header .side2{
+        padding: 8em 0em;
+    
+    }
+
+
+    .contact .contactInfo{
+        margin: 1em 0em;
+        border-left: none;
+        border-top: 1px solid rgba(0,0,0,0.3);
+    }
+
+    .contact .contactInfo i{
+        margin: 0em 0.3em !important;
+    }
+}

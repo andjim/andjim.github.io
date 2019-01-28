@@ -11,7 +11,7 @@
     Translator.translate('en-US',htmlNodes)
           */
 
-          class Translator {
+class Translator {
     private langs: object;
     constructor(langs:object) {
         this.langs = langs;
@@ -103,3 +103,4 @@ let changeListener = (e) => {
 }
 
 selector.addEventListener("change",changeListener);
+selector.dispatchEvent(new Event('change'));

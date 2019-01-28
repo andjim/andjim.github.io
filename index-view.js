@@ -81,3 +81,4 @@ var changeListener = function (e) {
     translator.translate(lang_selected, text_node);
 };
 selector.addEventListener("change", changeListener);
+selector.dispatchEvent(new Event('change'));
