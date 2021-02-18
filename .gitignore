@@ -1,4 +1,2 @@
 node_modules/*
-.vs/*
-design1.pdf
-tobundle.cmd
+.vscode/*

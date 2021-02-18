@@ -1,0 +1,23 @@
+html, body, .container-fluid {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.mt-2 {
+    margin-top: 20% !important;
+}
+
+.wrench-motion {
+    animation: 3s infinite alternate wrenchmotion;
+}
+
+@keyframes wrenchmotion {
+    from {
+        transform: rotateZ(-10deg);
+    }
+
+    to {
+        transform: rotateZ(40deg);
+    }
+}
