@@ -1,23 +1,15 @@
-html, body, .container-fluid {
+html, body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
 }
 
-.mt-2 {
-    margin-top: 20% !important;
+.img-rounded {
+    border-radius: 50%;
+    border: 1px solid #ccc;
 }
 
-.wrench-motion {
-    animation: 3s infinite alternate wrenchmotion;
-}
-
-@keyframes wrenchmotion {
-    from {
-        transform: rotateZ(-10deg);
-    }
-
-    to {
-        transform: rotateZ(40deg);
-    }
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
 }
