@@ -2,6 +2,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    background-color: #ede8d0;
 }
 
 .img-rounded {
@@ -12,4 +13,14 @@ html, body {
 .text-justify {
     text-align: justify;
     text-justify: inter-word;
+}
+
+#about {
+    padding-bottom: 50%;
+}
+
+#menu {
+    background-color: #ede8d0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d3d3d3;
 }
