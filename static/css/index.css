@@ -2,12 +2,12 @@ html, body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    background-color: #ede8d0;
+    background-color: #fefae0;
 }
 
 .img-rounded {
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: 1px solid #bc6c25;
 }
 
 .text-justify {
@@ -16,11 +16,38 @@ html, body {
 }
 
 #about {
-    padding-bottom: 30%;
+    padding-bottom: 10%;
 }
 
-#menu {
-    background-color: #ede8d0;
+    #menu {
+    background-color: #fefae0;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #faedcd;
+}
+
+.btn-brown {
+    background-color: #bc6c25 !important;
+    color: #fefae0 !important;
+}
+
+.btn-brown-inversed {
+    color: #bc6c25 !important;
+    background-color: #fefae0 !important;
+    border-color: #bc6c25 !important;
+}
+
+.text-caramel {
+    color: #bc6c25 !important;
+}
+
+.custom {
+    backdrop-filter: blur(20px);
+    background-color: #cc671629;
+    border-color: #cc8c16;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-bg-caramel {
+    color: #cc671629;
+    background-color: #cc8c16;
 }
