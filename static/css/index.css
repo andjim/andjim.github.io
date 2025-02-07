@@ -42,12 +42,14 @@ html, body {
 
 .custom {
     backdrop-filter: blur(20px);
-    background-color: #cc671629;
-    border-color: #cc8c16;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #cc8c1628;
+    box-shadow: 0 0 10px 1px #cc8c165b;
+    /* border: 1px #bc6c25 solid; */
 }
 
 .text-bg-caramel {
     color: #cc671629;
-    background-color: #cc8c16;
+    background-color: #cc8c1649;
+    backdrop-filter: blur(10px);
+    border: 1px solid #cc8c16;
 }
