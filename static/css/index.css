@@ -15,11 +15,11 @@ html, body {
     text-justify: inter-word;
 }
 
-#about {
+/* #about {
     padding-bottom: 10%;
-}
+} */
 
-    #menu {
+#menu {
     background-color: #fefae0;
     padding-bottom: 1rem;
     border-bottom: 1px solid #faedcd;
@@ -52,4 +52,19 @@ html, body {
     background-color: #cc8c1649;
     backdrop-filter: blur(10px);
     border: 1px solid #cc8c16;
+}
+
+
+#profile_pic {
+    max-width: 50% !important;
+}
+
+@media (min-width: 768px) { /*md*/
+    #about {
+        margin-top: 12% !important;
+    }
+
+    #profile_pic {
+        max-width: 80% !important;
+    }
 }
